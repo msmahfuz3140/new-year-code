@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 808px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 216px 230px 262px 990px;
+    background-image: url("../images/banner/banner1.png");
+}
+
+.hero .hero-text {
+    text-align: right;
+    width: 565px;
+
+
+}
+
+.hero .hero-text h1 {
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+
+}
+
+.hero .hero-text p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.hero .hero-text .btn {
+    width: 160px;
+    padding: 21px 25px;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#failer {
+    margin-top: 131px;
+}
+
+#failer .failer-container {
+    display: flex;
+    align-items: center;
+    padding: 0 322px 0 206px;
+    /* gap: 27px; */
+    justify-content: space-evenly;
+}
+
+#failer .failer-container .failer-image {
+    width: 569px;
+}
+
+#failer .failer-container .failer-text {
+    width: 416px;
+}
+
+.failer-container .failer-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failer-container .failer-text .text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 19px;
+}
+
+.failer-container .failer-text .catagory {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    color: #444343;
+}
+
+.failer-container .failer-text .catagory .fa-solid {
+    color: #16D887;
+}
+
+#plan {
+    margin-top: 130px;
+
+}
+
+#plan .plan-container {
+    width: 1141px;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+#plan .plan-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+}
+
+#plan .plan-container .plan-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.plan-box .plan-card h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+}
+
+.plan-box .plan-card p {
+    font-size: 25px;
+    color: #737272;
+    margin-top: 16px;
+}
+
+#mindset {
+    margin-top: 130px;
+    
+}
+
+#mindset .mindset-container {
+    width: 1159px;
+    height: 300px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    background-image: url("../images/watch.png");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+}
+
+.mindset-container .mindset-content {
+    width: 1159px;
+    height: 300px;
+    background-image: url("../images/gradient3.png");
+    background-size: cover;
+}
+.mindset-content h2{
+    width: 459px;
+    font-size: 40px;
+    color: white;
+    padding: 59px 0 0 83px;
+}
+.mindset-content .btn{
+    margin: 59px 0 0 83px;
+    width: 160px;
+    padding: 21px 36px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer{
+    margin-top: 130px;
+    width: 100%;
+    height: 577px;
+    background-color: #151414;
+}
+footer .footer-container{
+    display: flex;
+    padding: 130px 230px;
+    justify-content: space-around;
+
+}
+.footer-content{
+    width: 485px;
+}
+.footer-container h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+}
+.footer-container p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.content-icon{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.footer-container form{
+    width: 325px;
+    height: 204px;
+}
+.footer-container form label {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-container form input[type="email"]{
+    width: 325px;
+    height: 64px;
+    border: 1px solid #737272;
+    border-radius: 8px;
+    background-color:#151414;
+    color: white;
+    font-size: 18px;
+    padding: 21px 0 21px 21px;
+    margin-bottom: 16px;
+
+}
+.footer-container .btn {
+    
+    width: 160px;
+    padding: 21px 36px;
+    
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
+
